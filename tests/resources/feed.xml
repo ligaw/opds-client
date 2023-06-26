@@ -1,0 +1,347 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>0B9N30FEV9ZBY</id>
+    <title>Spawn</title>
+    <updated>2023-01-28T15:24:54.669Z</updated>
+    <author>
+        <name>Komga</name>
+        <uri>https://github.com/gotson/komga</uri>
+    </author>
+    <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="self"
+          href="/opds/v1.2/series/0B9N30FEV9ZBY"/>
+    <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="start" href="/opds/v1.2/catalog"/>
+    <link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="next"
+          href="/opds/v1.2/series/0B9N30FEV9ZBY?page=1"/>
+    <entry>
+        <title>Spawn's_Universe_-_001__2021___7_covers___Digital-Empire_</title>
+        <updated>2023-01-29T20:29:20.251Z</updated>
+        <id>0B9N30FG39PFK</id>
+        <content>cbr - 121.8 MiB&lt;br/>&lt;br/>IT’S HERE: THE OFFICIAL INTRODUCTION TO THE LONG-AWAITED SPAWN’S
+            UNIVERSE!&lt;br/> &lt;br/>A double-sized issue that begins a storyline so huge that three NEW SPAWN-related
+            monthly titles will spill out from it, including…&lt;br/> &lt;br/>A new SPAWN title.&lt;br/>GUNSLINGER SPAWN
+            monthly.&lt;br/>And a new TEAM book bringing a handful of these characters together in their own book.&lt;br/>
+            &lt;br/>With this one-shot…the world of SPAWN changes forever! New heroes. New villains, and more
+            importantly, new titles coming to a comic shop near you. Join this list of artists as we unveil a historic
+            moment in the mythology of SPAWN’S UNIVERSE:&lt;br/>&lt;br/>JIM CHEUNG&lt;br/>TODD McFARLANE&lt;br/>STEPHEN
+            SEGOVIA&lt;br/>MARCIO TAKARA
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG39PFK/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG39PFK/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG39PFK/file/Spawn's_Universe_-_001__2021___7_covers___Digital-Empire_.cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG39PFK/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns1="http://vaemendis.net/opds-pse/ns" wstxns1:count="68" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Of Swords</title>
+        <updated>2023-01-29T20:29:26.326Z</updated>
+        <id>0B9N30FG79JCE</id>
+        <content>cbr - 98.6 MiB&lt;br/>&lt;br/>A historical NEW ongoing SPAWN series begins!&lt;br/>&lt;br/>The launch
+            of this book, nearly three decades in the making, further expands the SPAWN UNIVERSE with a growing presence
+            of Hell, Heaven, and Heroes here on Earth.&lt;br/>&lt;br/>A classic villain from Spawn's past has begun
+            asserting his powers on Earth by corrupting as many souls as possible. And only Spawn knows that he even
+            exists. Continuing the dramatic battles from SPAWN'S UNIVERSE #1, this is where it all begins!!!!!&lt;br/>&lt;br/>Don't
+            miss out...the last time a new ongoing SPAWN series launched was in 1992.
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG79JCE/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG79JCE/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG79JCE/file/King%20Spawn%20001%20(2021)%20(8%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG79JCE/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns2="http://vaemendis.net/opds-pse/ns" wstxns2:count="63" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>Gunslinger 001 (2021) (8 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:34.428Z</updated>
+        <id>0B9N30FG79JCN</id>
+        <content>cbr - 89.4 MiB&lt;br/>&lt;br/>Introducing the launch of the second new monthly title spinning out of
+            the SPAWN UNIVERSE, with one of the most popular characters in the entire SPAWN mythology! This book
+            contains three separate GUNSLINGER stories, each taking a look at his journey through time—from the wild,
+            wild west to the 21st century. Will his 200-year-old past come back to haunt him as he navigates the strange
+            world of 2021? Get ready for the past and present to collide in this new ongoing title!
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG79JCN/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG79JCN/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG79JCN/file/Gunslinger%20001%20(2021)%20(8%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG79JCN/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns3="http://vaemendis.net/opds-pse/ns" wstxns3:count="57" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>The Scorched 001 (2022) (8 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:40.429Z</updated>
+        <id>0B9N30FGB9ZEH</id>
+        <content>cbr - 112.5 MiB&lt;br/>&lt;br/>The first ALL-NEW issue of TODD McFARLANE’s superhero team book!&lt;br/>&lt;br/>There’s
+            a threat so big that no single hero can stop it, and the formation of this new supergroup is the only thing
+            standing in its way. Members will include SPAWN, REDEEMER, GUNSLINGER, MEDIEVAL SPAWN, and SHE-SPAWN, with
+            many more heroes waiting in the wings!&lt;br/>&lt;br/>Join the battle in this FIRST ISSUE extravaganza as
+            the forces of Heaven, Hell, and Earth collide!
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZEH/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZEH/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZEH/file/The%20Scorched%20001%20(2022)%20(8%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZEH/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns4="http://vaemendis.net/opds-pse/ns" wstxns4:count="55" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 002 (2021) (3 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:26.895Z</updated>
+        <id>0B9N30FG79JCF</id>
+        <content>cbr - 42.4 MiB&lt;br/>&lt;br/>One of the most vile and horrific villains in the SPAWN mythology
+            returns:&lt;br/>&lt;br/>Billy Kincaid…now, simply called KINCAID.&lt;br/>&lt;br/>But his new campaign to
+            murder is more than it seems. Like everyone else in SPAWN’S UNIVERSE…battle lines have been drawn, and
+            all-out war is about to be unleashed.
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG79JCF/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG79JCF/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG79JCF/file/King%20Spawn%20002%20(2021)%20(3%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG79JCF/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns5="http://vaemendis.net/opds-pse/ns" wstxns5:count="28" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>Gunslinger 002 (2021) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:35.352Z</updated>
+        <id>0B9N30FG79JCP</id>
+        <content>cbr - 47.5 MiB&lt;br/>&lt;br/>Vampires. Guns. And Blood!!! &lt;br/>&lt;br/>But whose blood will be
+            spilled first?!? Gunslinger stumbles across a vicious vampire cult’s plot to kill Al Simmons…who Gunslinger
+            needs alive if he is ever to return back to 1859.
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG79JCP/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG79JCP/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG79JCP/file/Gunslinger%20002%20(2021)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG79JCP/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns6="http://vaemendis.net/opds-pse/ns" wstxns6:count="27" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 003 (2021) (4 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:28.109Z</updated>
+        <id>0B9N30FG79JCG</id>
+        <content>cbr - 45.4 MiB&lt;br/>&lt;br/>New fan-favorite creative team LEWIS &amp; FERNANDEZ continue their dark
+            trek into a world beginning to come undone at the seams. Enemies have begun to unite as the battle for the
+            gates of Hell continues to escalate. And Kincaid is back, but what does he want, and what role does he need
+            Spawn to play in his creation of a new world?
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG79JCG/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG79JCG/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG79JCG/file/King%20Spawn%20003%20(2021)%20(4%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG79JCG/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns7="http://vaemendis.net/opds-pse/ns" wstxns7:count="29" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>Gunslinger 003 (2021) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:36.468Z</updated>
+        <id>0B9N30FGB9ZEE</id>
+        <content>cbr - 47.3 MiB&lt;br/>&lt;br/>Vampires. Guns. And Blood!!! &lt;br/>&lt;br/>The Gunslinger tries to
+            protect the young man helping him, but comes face to face with a NEW VILLAIN from his Western past. And
+            unfortunately, this could only lead to the return of a much more dangerous plot run by the one supervillain
+            Gunslinger can’t defeat!
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZEE/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZEE/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZEE/file/Gunslinger%20003%20(2021)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZEE/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns8="http://vaemendis.net/opds-pse/ns" wstxns8:count="27" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 004 (2021) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:29.924Z</updated>
+        <id>0B9N30FG79JCH</id>
+        <content>cbr - 47.2 MiB&lt;br/>&lt;br/>Spawn locates Kincaid and the two finally face off. But was that his plan
+            the entire time? Meanwhile, Jessica and Medieval continue their globe-trotting hunt for superpowered
+            terrorists!
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG79JCH/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG79JCH/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG79JCH/file/King%20Spawn%20004%20(2021)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG79JCH/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns9="http://vaemendis.net/opds-pse/ns" wstxns9:count="26" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>Gunslinger 004 (2022) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:38.039Z</updated>
+        <id>0B9N30FGB9ZEF</id>
+        <content>cbr - 43.4 MiB&lt;br/>&lt;br/>The return of the NEW and IMPROVED supervillain…CLOWN!!!&lt;br/>&lt;br/>This
+            is a clown who is bent on destroying Spawn…but he needs to corrupt Gunslinger Spawn first! And just wait
+            until you see who is fighting at his side.
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZEF/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZEF/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZEF/file/Gunslinger%20004%20(2022)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZEF/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns10="http://vaemendis.net/opds-pse/ns" wstxns10:count="28" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 005 (2021) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:31.606Z</updated>
+        <id>0B9N30FG79JCJ</id>
+        <content>cbr - 44.6 MiB&lt;br/>&lt;br/>The predictions of the one they call THE ORACLE begin to come true. Spawn
+            must now face a group of angels bent on the destruction of everything in its path—including God himself, if
+            need be.
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG79JCJ/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG79JCJ/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG79JCJ/file/King%20Spawn%20005%20(2021)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG79JCJ/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns11="http://vaemendis.net/opds-pse/ns" wstxns11:count="26" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>Gunslinger 005 (2022) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:39.354Z</updated>
+        <id>0B9N30FGB9ZEG</id>
+        <content>cbr - 38.6 MiB</content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZEG/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZEG/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZEG/file/Gunslinger%20005%20(2022)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZEG/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns12="http://vaemendis.net/opds-pse/ns" wstxns12:count="28" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 006 (2022) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:48.701Z</updated>
+        <id>0B9N30FGB9ZEQ</id>
+        <content>cbr - 48.7 MiB&lt;br/>&lt;br/>After the shocking revelation of DISRUPTOR’s true identity, Spawn’s rage
+            intensifies, and the battle in Botswana comes to a savage conclusion.
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZEQ/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZEQ/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZEQ/file/King%20Spawn%20006%20(2022)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZEQ/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns13="http://vaemendis.net/opds-pse/ns" wstxns13:count="26" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 007 (2022) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:49.833Z</updated>
+        <id>0B9N30FGB9ZER</id>
+        <content>cbr - 41.6 MiB&lt;br/>&lt;br/>Spawn returns to where his journey began: New York City. The city has
+            always had the touch of filth in its streets, but now the rot has reached the boardroom of one of the
+            largest hedge funds in the world.
+        </content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZER/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZER/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZER/file/King%20Spawn%20007%20(2022)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZER/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns14="http://vaemendis.net/opds-pse/ns" wstxns14:count="28" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 008 (2022) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:50.702Z</updated>
+        <id>0B9N30FGB9ZES</id>
+        <content>cbr - 43.5 MiB</content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZES/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZES/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZES/file/King%20Spawn%20008%20(2022)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZES/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns15="http://vaemendis.net/opds-pse/ns" wstxns15:count="26" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 009 (2022) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:51.893Z</updated>
+        <id>0B9N30FGF9J2G</id>
+        <content>cbr - 49.6 MiB</content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGF9J2G/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGF9J2G/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGF9J2G/file/King%20Spawn%20009%20(2022)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGF9J2G/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns16="http://vaemendis.net/opds-pse/ns" wstxns16:count="25" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>King Spawn 010 (2022) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:52.816Z</updated>
+        <id>0B9N30FGF9J2H</id>
+        <content>cbr - 37.8 MiB</content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGF9J2H/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGF9J2H/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGF9J2H/file/King%20Spawn%20010%20(2022)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGF9J2H/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns17="http://vaemendis.net/opds-pse/ns" wstxns17:count="27" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>Spawn 327 (2022) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:33.066Z</updated>
+        <id>0B9N30FG79JCM</id>
+        <content>cbr - 30.7 MiB</content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FG79JCM/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FG79JCM/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FG79JCM/file/Spawn%20327%20(2022)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FG79JCM/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns18="http://vaemendis.net/opds-pse/ns" wstxns18:count="27" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>Spawn 328 (2022) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:46.045Z</updated>
+        <id>0B9N30FGB9ZEN</id>
+        <content>cbr - 32.7 MiB</content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZEN/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZEN/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZEN/file/Spawn%20328%20(2022)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZEN/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns19="http://vaemendis.net/opds-pse/ns" wstxns19:count="28" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+    <entry>
+        <title>Spawn 329 (2022) (2 covers) (Digital-Empire)</title>
+        <updated>2023-01-29T20:29:46.906Z</updated>
+        <id>0B9N30FGB9ZEP</id>
+        <content>cbr - 32.8 MiB</content>
+        <link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail"
+              href="/opds/v1.2/books/0B9N30FGB9ZEP/thumbnail"/>
+        <link type="image/jpeg" rel="http://opds-spec.org/image" href="/opds/v1.2/books/0B9N30FGB9ZEP/pages/1"/>
+        <link type="application/x-rar-compressed; version=4" rel="http://opds-spec.org/acquisition"
+              href="/opds/v1.2/books/0B9N30FGB9ZEP/file/Spawn%20329%20(2022)%20(2%20covers)%20(Digital-Empire).cbr"/>
+        <link href="/opds/v1.2/books/0B9N30FGB9ZEP/pages/{pageNumber}?zero_based=true"
+              xmlns:wstxns20="http://vaemendis.net/opds-pse/ns" wstxns20:count="27" type="image/jpeg"
+              rel="http://vaemendis.net/opds-pse/stream"/>
+    </entry>
+</feed>
