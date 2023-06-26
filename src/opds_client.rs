@@ -1,19 +1,6 @@
-use reqwest::{header, Client, StatusCode};
-use thiserror::Error;
-
-// Defining our own error type for the OPDS client
-#[derive(Debug, Error)]
-pub enum OpdsClientError {
-    #[error("HTTP request failed")]
-    HttpRequestError(#[from] reqwest::Error),
-    #[error("Unexpected HTTP status code: {0}")]
-    UnexpectedHttpStatus(StatusCode),
-}
-
-pub enum Auth {
-    Basic(String, String),
-    Bearer(String),
-}
+use crate::auth::Auth;
+use crate::error::OpdsClientError;
+use reqwest::{header, Client};
 
 pub struct OpdsClient {
     client: Client,

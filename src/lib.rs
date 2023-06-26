@@ -1,5 +1,7 @@
+mod auth;
+mod error;
 mod opds_client;
 
-pub use opds_client::Auth;
+pub use auth::Auth;
 pub use opds_client::OpdsClient;
 
