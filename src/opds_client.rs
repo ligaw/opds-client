@@ -1,6 +1,6 @@
 use crate::auth::Auth;
 use crate::error::OpdsClientError;
-use reqwest::{header, Client};
+use reqwest::{blocking::Client, blocking::RequestBuilder, header};
 
 pub struct OpdsClient {
     client: Client,
@@ -18,7 +18,7 @@ impl OpdsClient {
         }
     }
 
-    fn request(&self, path: &str) -> reqwest::RequestBuilder {
+    fn request(&self, path: &str) -> RequestBuilder {
         let url = format!("{}{}", self.base_url, path);
         let request_builder = self.client.get(url);
         match &self.auth_type {
@@ -32,14 +32,14 @@ impl OpdsClient {
         }
     }
 
-    pub async fn fetch_feed(&self, path: &str) -> Result<String, OpdsClientError> {
-        let response = self.request(&path).send().await?;
+    pub fn fetch_feed(&self, path: &str) -> Result<String, OpdsClientError> {
+        let response = self.request(&path).send()?;
 
         if !response.status().is_success() {
             return Err(OpdsClientError::UnexpectedHttpStatus(response.status()));
         }
 
-        Ok(response.text().await?)
+        Ok(response.text()?)
     }
 }
 
@@ -48,8 +48,8 @@ mod tests {
     use super::*;
     use httpmock::prelude::*;
 
-    #[tokio::test]
-    async fn test_fetch_feed() {
+    #[test]
+    fn test_fetch_feed() {
         let server = MockServer::start();
 
         let opds_mock = server.mock(|when, then| {
@@ -58,7 +58,7 @@ mod tests {
         });
         let client = OpdsClient::new(server.base_url(), None);
 
-        let response = client.fetch_feed("/catalog").await;
+        let response = client.fetch_feed("/catalog");
         opds_mock.assert();
         assert!(response.is_ok());
     }
