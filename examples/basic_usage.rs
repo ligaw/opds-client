@@ -2,8 +2,7 @@ use dotenv::dotenv;
 use opds_client::Auth;
 use opds_client::OpdsClient;
 
-#[tokio::main]
-async fn main() {
+fn main() {
     dotenv().ok();
     let server_url = std::env::var("OPDS_SERVER_URL").expect("OPDS_SERVER_URL not set");
     let username = std::env::var("OPDS_USERNAME").expect("OPDS_USERNAME not set");
@@ -11,7 +10,7 @@ async fn main() {
 
     let client = OpdsClient::new(server_url, Some(Auth::Basic(username, password)));
 
-    match client.fetch_feed("/catalog").await {
+    match client.fetch_feed("/catalog") {
         Ok(feed) => println!("Fetched feed: {}", feed),
         Err(e) => eprintln!("Error fetching feed: {}", e),
     }
