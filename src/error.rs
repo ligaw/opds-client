@@ -7,4 +7,6 @@ pub enum OpdsClientError {
     HttpRequestError(#[from] reqwest::Error),
     #[error("Unexpected HTTP status code: {0}")]
     UnexpectedHttpStatus(StatusCode),
+    #[error("Error parsing XML")]
+    ParseError(),
 }

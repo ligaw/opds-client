@@ -1,7 +1,7 @@
 use crate::auth::Auth;
+use crate::error::OpdsClientError;
 use crate::opds_client::OpdsClient;
 use serde::Deserialize;
-use std::error::Error;
 
 pub struct OpdsServer {
     client: OpdsClient,
@@ -13,18 +13,17 @@ impl OpdsServer {
         Self { client }
     }
 
-    pub fn catalog(&self) -> OpdsEntry {
-        let opds_entry = self
-            .client
-            .get_xml("/catalog")
-            .expect("Failed to get catalog");
-        Self::parse(&opds_entry)
+    pub fn catalog(&self) -> Result<OpdsEntry, OpdsClientError> {
+        let catalog = self.client.get_xml("/catalog")?;
+        OpdsServer::parse(&catalog[..])
     }
 
-    pub fn parse(xml_string: &str) -> OpdsEntry {
-        let opds_entry: OpdsEntry =
-            serde_xml_rs::from_str(xml_string).expect("Failed to parse XML");
-        opds_entry
+    pub fn parse(xml_string: &str) -> Result<OpdsEntry, OpdsClientError> {
+        let entries = serde_xml_rs::from_str(xml_string);
+        match entries {
+            Ok(entries) => Ok(entries),
+            Err(_) => Err(OpdsClientError::ParseError()),
+        }
     }
 }
 
@@ -53,12 +52,6 @@ pub struct Link {
     pub href: String,
 }
 
-#[derive(Debug)]
-struct OpdsEntryParsingError {
-    source_error: Box<dyn Error>,
-    xml: String,
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -67,15 +60,9 @@ mod tests {
     #[test]
     fn test_parse() {
         let content =
-            fs::read_to_string("tests/resources/catalog.xml").expect("Failed to open XML file");
+            fs::read_to_string("tests/resources/root.xml").expect("Failed to open XML file");
 
-        match OpdsServer::parse(&content[..]) {
-            Ok(opds_entry) => {
-                println!("{:#?}", opds_entry);
-            }
-            Err(e) => {
-                eprintln!("Error: {e}");
-            }
-        }
+        let catalog = OpdsServer::parse(&content[..]).expect("Parsing failed");
+        assert_eq!(catalog.title, "OPDS Catalog Root Example");
     }
 }
