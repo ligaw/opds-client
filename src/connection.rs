@@ -1,15 +1,15 @@
 use crate::auth::Auth;
-use crate::error::OpdsClientError;
+use crate::error::OpdsError;
 use reqwest::blocking::{Client, RequestBuilder};
 use reqwest::header;
 
-pub struct OpdsClient {
+pub struct OpdsConnection {
     client: Client,
     base_url: String,
     auth_type: Option<Auth>,
 }
 
-impl OpdsClient {
+impl OpdsConnection {
     pub fn new(base_url: String, auth_type: Option<Auth>) -> Self {
         let client = Client::new();
         Self {
@@ -33,7 +33,7 @@ impl OpdsClient {
         }
     }
 
-    pub fn get_xml(&self, path: &str) -> Result<String, OpdsClientError> {
+    pub fn get_xml(&self, path: &str) -> Result<String, OpdsError> {
         let response = self.request(path).send()?;
 
         Ok(response.text()?)
@@ -53,7 +53,7 @@ mod tests {
             when.method(GET).path("/catalog");
             then.status(200).body("<feed></feed>");
         });
-        let client = OpdsClient::new(server.base_url(), None);
+        let client = OpdsConnection::new(server.base_url(), None);
 
         let response = client.get_xml("/catalog");
         opds_mock.assert();

@@ -1,28 +1,33 @@
 use crate::auth::Auth;
-use crate::error::OpdsClientError;
-use crate::opds_client::OpdsClient;
+use crate::connection::OpdsConnection;
+use crate::error::OpdsError;
 use serde::Deserialize;
 
 pub struct OpdsServer {
-    client: OpdsClient,
+    client: OpdsConnection,
 }
 
 impl OpdsServer {
     pub fn new(base_url: String, auth_type: Option<Auth>) -> Self {
-        let client = OpdsClient::new(base_url, auth_type);
+        let client = OpdsConnection::new(base_url, auth_type);
         Self { client }
     }
 
-    pub fn catalog(&self) -> Result<OpdsEntry, OpdsClientError> {
+    pub fn catalog(&self) -> Result<OpdsEntry, OpdsError> {
         let catalog = self.client.get_xml("/catalog")?;
         OpdsServer::parse(&catalog[..])
     }
 
-    pub fn parse(xml_string: &str) -> Result<OpdsEntry, OpdsClientError> {
+    pub fn get_xml(&self, path: String) -> Result<OpdsEntry, OpdsError> {
+        let entries = self.client.get_xml(&path[..])?;
+        OpdsServer::parse(&entries[..])
+    }
+
+    pub fn parse(xml_string: &str) -> Result<OpdsEntry, OpdsError> {
         let entries = serde_xml_rs::from_str(xml_string);
         match entries {
             Ok(entries) => Ok(entries),
-            Err(_) => Err(OpdsClientError::ParseError()),
+            Err(_) => Err(OpdsError::ParseError()),
         }
     }
 }

@@ -2,7 +2,7 @@ use reqwest::StatusCode;
 use thiserror::Error;
 
 #[derive(Debug, Error)]
-pub enum OpdsClientError {
+pub enum OpdsError {
     #[error("HTTP request failed")]
     HttpRequestError(#[from] reqwest::Error),
     #[error("Unexpected HTTP status code: {0}")]
