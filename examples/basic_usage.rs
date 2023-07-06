@@ -1,6 +1,6 @@
 use dotenv::dotenv;
 use opds_client::Auth;
-use opds_client::OpdsServer;
+use opds_client::Server;
 
 fn main() {
     dotenv().ok();
@@ -8,7 +8,7 @@ fn main() {
     let username = std::env::var("OPDS_USERNAME").expect("OPDS_USERNAME not set");
     let password = std::env::var("OPDS_PASSWORD").expect("OPDS_PASSWORD not set");
 
-    let client = OpdsServer::new(server_url, Some(Auth::Basic(username, password)));
+    let client = Server::new(server_url, Some(Auth::Basic(username, password)));
 
     let feed = client.catalog();
     println!("{:#?}", feed);

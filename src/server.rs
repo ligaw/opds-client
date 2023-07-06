@@ -1,33 +1,33 @@
 use crate::auth::Auth;
-use crate::connection::OpdsConnection;
-use crate::error::OpdsError;
+use crate::connection::Connection;
+use crate::error::Error;
 use serde::Deserialize;
 
-pub struct OpdsServer {
-    client: OpdsConnection,
+pub struct Server {
+    client: Connection,
 }
 
-impl OpdsServer {
+impl Server {
     pub fn new(base_url: String, auth_type: Option<Auth>) -> Self {
-        let client = OpdsConnection::new(base_url, auth_type);
+        let client = Connection::new(base_url, auth_type);
         Self { client }
     }
 
-    pub fn catalog(&self) -> Result<OpdsEntry, OpdsError> {
+    pub fn catalog(&self) -> Result<OpdsEntry, Error> {
         let catalog = self.client.get_xml("/catalog")?;
-        OpdsServer::parse(&catalog[..])
+        Server::parse(&catalog[..])
     }
 
-    pub fn get_xml(&self, path: String) -> Result<OpdsEntry, OpdsError> {
+    pub fn get_xml(&self, path: String) -> Result<OpdsEntry, Error> {
         let entries = self.client.get_xml(&path[..])?;
-        OpdsServer::parse(&entries[..])
+        Server::parse(&entries[..])
     }
 
-    pub fn parse(xml_string: &str) -> Result<OpdsEntry, OpdsError> {
+    pub fn parse(xml_string: &str) -> Result<OpdsEntry, Error> {
         let entries = serde_xml_rs::from_str(xml_string);
         match entries {
             Ok(entries) => Ok(entries),
-            Err(_) => Err(OpdsError::ParseError()),
+            Err(_) => Err(Error::ParseError()),
         }
     }
 }
@@ -67,7 +67,7 @@ mod tests {
         let content =
             fs::read_to_string("tests/resources/root.xml").expect("Failed to open XML file");
 
-        let catalog = OpdsServer::parse(&content[..]).expect("Parsing failed");
+        let catalog = Server::parse(&content[..]).expect("Parsing failed");
         assert_eq!(catalog.title, "OPDS Catalog Root Example");
     }
 }
