@@ -46,6 +46,9 @@ mod tests {
     use httpmock::prelude::*;
 
     #[test]
+    fn test_cannot_connect() {}
+
+    #[test]
     fn test_get_xml() {
         let server = MockServer::start();
 

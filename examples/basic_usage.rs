@@ -12,4 +12,8 @@ fn main() {
 
     let feed = client.catalog();
     println!("{:#?}", feed);
+
+    let links = client.get_xml(String::from("/opds/v1.2/books/latest"));
+    println!("{:#?}", links);
+
 }

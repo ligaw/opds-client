@@ -14,7 +14,7 @@ impl Server {
     }
 
     pub fn catalog(&self) -> Result<OpdsEntry, Error> {
-        let catalog = self.client.get_xml("/catalog")?;
+        let catalog = self.client.get_xml("/opds/v1.2/catalog")?;
         Server::parse(&catalog[..])
     }
 
